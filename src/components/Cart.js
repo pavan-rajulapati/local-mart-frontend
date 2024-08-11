@@ -160,7 +160,7 @@ const Cart = () => {
                                         <div className="cartItem">
                                             <div className="image">
                                                 {item.product?.image ? (
-                                                    <img src={`http://localhost:5000/${item.product.image}`} alt={item.product?.name ?? 'No Name'} />
+                                                    <img src={`${url}/${item.product.image}`} alt={item.product?.name ?? 'No Name'} />
                                                 ) : (
                                                     <span>No Image Available</span>
                                                 )}
