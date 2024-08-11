@@ -1,0 +1,145 @@
+.payment{
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.payment .container{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment .container .itemSection{
+    width: 50%;
+    height: 80vh;
+    margin: 0px 10px;
+    overflow-y: scroll;
+}
+
+.payment .container .itemSection::-webkit-scrollbar{
+    display: none;
+}
+
+.payment .container .paymentSection{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.payment .container .paymentSection .form{
+    border: solid 1px #333;
+    border-radius: 4px;
+    padding: 30px;
+    position: relative;
+}
+.payment .container .paymentSection .form span{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.payment .container .paymentSection .form .inputFields {
+    margin-top: 20px;
+}
+
+.payment .container .paymentSection .form .inputFields label input{
+    font-size: 16px;
+    margin: 15px 0px;
+    outline: none;
+    width: 300px;
+    height: 35px;
+    color: rgb(0, 140, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.payment .container .paymentSection .form .inputFields .utr{
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.payment .container .paymentSection .Btn{
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+}
+
+.payment .container .paymentSection .Btn button{
+    padding: 0 10px;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 1px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.payment .container .items{
+    padding: 20px;
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+
+.payment .container .items .item{
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.payment .container .items .item .info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px;
+    align-items: center;
+}
+
+.payment .container .item .price {
+    position: relative;
+    height: 40px;
+    align-items: center;
+    display: flex
+}
+
+.payment .container .item .price span:first-child{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.payment .container .item:hover{
+    background-color: rgba(255, 255, 255,0.4);
+}
+
+.payment .container .total{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: var(--yellow);
+    margin-top: 30px;
+    border-radius: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.payment .container .total span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.payment .container .item span{
+    margin: 10px 0px;
+}

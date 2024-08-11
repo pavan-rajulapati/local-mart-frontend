@@ -1,0 +1,64 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.success span{
+    margin: 7px;
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.success button{
+    margin-top: 30px;
+    padding: 8px 24px;
+    border: none;
+    background-color: blue;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+
+.cancel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.cancel span{
+    margin: 7px;
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family : initial;
+}
+
+.cancel button{
+    margin-top: 30px;
+    padding: 8px 24px;
+    border: solid 1px;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 17px;
+    transition: 1s ease;
+}
+
+.cancel button:hover{
+    background-color: black;
+    color: white;
+}

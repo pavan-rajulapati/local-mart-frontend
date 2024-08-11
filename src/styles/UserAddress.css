@@ -1,0 +1,65 @@
+
+.userAddress {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.userAddress .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.userAddress .user form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.userAddress .inputFields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.userAddress .inputFields input {
+    flex: 1 1 calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.userAddress .inputFields input::-webkit-inner-spin-button,
+.userAddress .inputFields input::-webkit-outer-spin-button{
+    display: none;
+}
+
+.userAddress .inputFields input::placeholder {
+    color: #6c757d;
+}
+
+.userAddress .Btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.userAddress .Btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.userAddress .Btn button:hover {
+    background-color: #0056b3;
+}

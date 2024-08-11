@@ -1,0 +1,157 @@
+.profile{
+    padding: 10px 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.profile .container{
+    display: flex;
+}
+
+.profile .container .userInfo{
+    padding: 10px;
+    width: 30%;
+    height: 100vh;
+}
+
+.profile .container .userInfo .image{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: space-between;
+    border: solid 1px #d8d8d8;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.profile .container .userInfo .image img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profile .container .userInfo div:last-child button{
+    padding: 8px 10px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profile .container .userInfo .info{
+    margin-top: 20px;
+    height: 80vh;
+    border: solid 1px #d8d8d8;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow-y: scroll;
+}
+
+.profile .container .userInfo .info::-webkit-scrollbar{
+    display: none;
+}
+
+.profile .container .userInfo .info div:first-child{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #d8d8d8;
+}
+
+.profile .container .userInfo .info div:first-child span{
+    font-size: 1rem;
+    color: #545454;
+    margin-left: 5px;
+}
+
+.profile .container .userInfo .info div:first-child span:first-child{
+    color: var(--blue);
+}
+
+.profile .container .userInfo .info .userPersonalData{
+    display: flex;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.profile .container .userInfo .info .userPersonalData ul li{
+    margin: 5px 0px;
+    font-size: 18px;
+}
+
+.profile .container .userInfo .name span{
+    font-weight: 800;
+    color: #545454;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.profile .container .userInfo .address {
+    display: flex;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.profile .container .userInfo .address ul li{
+    margin: 5px 0px;
+    font-size: 18px;
+}
+.profile .container .orders{
+    padding: 10px;
+    width: 70%;
+}
+.profile .container .items{
+    border: solid 1px #dcdcdc;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    height: 85vh;
+}
+.profile .container .orders .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile .container .orders .table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.profile .container .orders .table th,
+.table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.profile .container .orders .table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.profile .container .orders .table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.profile .container .orders .table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.profile .container .orders .Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .container .orders .Btn button{
+    margin-top: 5px;
+    padding: 8px 16px;
+    background-color: var(--red);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}

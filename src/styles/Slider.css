@@ -1,0 +1,51 @@
+.mobileSection {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mobileSection .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    height: auto; 
+    padding: 0px 20px;
+}
+
+.mobileSection .image img {
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    height: auto; 
+}
+
+@media only screen and (max-width: 767px) {
+    .mobileSection {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mobileSection .image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 4px;
+        height: auto;
+        padding: 0px 10px;
+    }
+
+    .mobileSection .image img {
+        object-fit: cover;
+        background-position: center;
+        width: 100%;
+        border-radius: 4px;
+        cursor: pointer;
+        height: auto; 
+    }
+}

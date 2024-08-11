@@ -1,0 +1,149 @@
+.register .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0 20px; 
+}
+
+.register .container .register {
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: solid 1px #dcdcdc;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.register .container .register .imageSection {
+    overflow: hidden;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register .container .register .imageSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.register .container .form {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register .container .form .head {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 20px 0; 
+}
+
+.register .container .form .inputFields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.register .container .form .inputFields input {
+    width: 100%;
+    max-width: 300px; 
+    margin: 15px 0;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+.register .container .form .Btn {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.register .container .form .Btn button {
+    width: 100%;
+    max-width: 100px;
+    height: 35px;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    transition: background-color 0.3s;
+}
+
+.register .container .form .Btn button:hover {
+    background-color: rgb(38, 38, 38);
+}
+
+.register .container .form .login {
+    margin-top: 30px;
+    text-align: center; 
+}
+
+.register .container .form .login a {
+    color: blue;
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.register .container .form .login a:hover {
+    color: darken(blue, 10%); 
+}
+
+@media only screen and (max-width: 767px) {
+    .register .container {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 0 20px; 
+    }
+
+    .register .container .register {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10%;
+    }
+
+    .register .container .register .imageSection {
+        display: none;
+    }
+
+    .register .container .form {
+        width: 100%;
+        max-width: 400px; 
+        padding: 20px;
+    }
+
+    .register .container .form .inputFields input {
+        width: 100%;
+    }
+
+    .register .container .form .inputFields input::placeholder{
+        font-size: 14px;
+    }
+
+    .register .container .form .Btn button {
+        width: 100%;
+    }
+}
