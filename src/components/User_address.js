@@ -67,7 +67,7 @@ const User_address = () => {
             toast.error(validationError);
         } else {
             try {
-                await axios.post(`${url}/api/seller`,userData,{
+                await axios.post(`${url}/api/add_address`,userData,{
                     headers:{
                         token:token
                     }

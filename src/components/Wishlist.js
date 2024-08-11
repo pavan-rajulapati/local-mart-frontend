@@ -49,7 +49,7 @@ const Wishlist = () => {
 
     const handleItemRemove = async (productId) => {
         try {
-            let res = await axios.delete('http://localhost:5000/api/remove-wishlist-item', {
+            let res = await axios.delete(`${url}/api/remove-wishlist-item`, {
                 data: { productId },
                 headers: {
                     token: token
