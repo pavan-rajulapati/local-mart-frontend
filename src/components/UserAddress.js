@@ -12,7 +12,7 @@ export const UserAddressProvider = ({ children }) => {
     useEffect(() => {
         const fetchUserAddress = async () => {
             try {
-                const response = await axios.get(`${url}/api/data`, {
+                const response = await axios.get(`${url}/api/user_address`, {
                     headers: {
                         token: token
                     }
